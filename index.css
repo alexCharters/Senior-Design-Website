@@ -1,0 +1,45 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Titillium Web', sans-serif; */
+
+@font-face {
+    font-family: "8bitlim";
+    src: url('assets/8bitlim.ttf');
+}
+
+@keyframes slideInFromAbove {
+    0% {
+        transform: translateY(-300%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spinAndGrow {
+    0% {
+        opacity: 0;
+        transform: rotateZ(-300deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateZ(0);
+    }
+}
+
+@keyframes darkenBackground {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+}
