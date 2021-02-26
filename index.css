@@ -133,11 +133,17 @@ margin-right: auto;
     display: flex;
     align-items: start;
     justify-content: space-around;
-    padding: 0 350px;
+    padding: 0 10%;
 }
 
 .bio {
     width: 25%;
+}
+
+.time {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 @media screen and (max-width: 1000px) {}
