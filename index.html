@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible">
 
     <title>Holofan</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&family=Roboto+Mono&family=Titillium+Web:ital@0;1&display=swap"
@@ -18,7 +19,7 @@
     <div class="jumbotron jumbotron-fluid rellax" data-rellax-speed="-5">
         <div class="overlay"></div>
         <div class="container rellax" data-rellax-speed="7">
-                <h1 class="display-4">Holofan</h1>
+            <h1 class="display-4">Holofan</h1>
         </div>
     </div>
 
@@ -111,10 +112,15 @@
                 <td>Wall Adapter</td>
                 <td>$5</td>
             </tr>
+            <tr>
+                <td style="font-weight: bold;">Total</td>
+                <td style="font-weight: bold;">$574</td>
+            </tr>
         </table>
     </div>
     <div class="section time">
         <h2>Time Table</h2>
+        <div id="chart_div"></div>
         <img src="assets/gantt.jpg" alt="gantt">
     </div>
     <div class="section members">
@@ -123,17 +129,28 @@
             <div class="bio">
                 <img src="assets/BrandonChen_BioPic.PNG" alt="Brandon">
                 <h4>Brandon Chen</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deserunt, vel laudantium iusto corrupti ducimus id unde maxime tenetur soluta? Sequi nemo libero dolor animi sapiente magni possimus ut reprehenderit?</p>
+                <h3>Electrical</h3>
+                <p>Brandon Chen is starting his third year studying Computer Engineering at the University of Utah.
+                    After completing the general education and pre requisite courses, he is now focusing on the upper
+                    division courses to graduate. Having the ability to adapt quickly while being resilient has helped
+                    him achieve success through college. He has also been a member of the University of Utah Men’s Club
+                    Soccer team for all three years. Balancing academics with soccer, Brandon likes to spend the rest of
+                    his free time enjoying nature with different types of outdoor activities.
+                </p>
             </div>
             <div class="bio">
-                <img src="" alt="">
+                <img src="assets/EmmanuelLotubai_Biopic.jpg" alt="">
                 <h4>Emmanuel Lotubai</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error rem fuga eos vel eum in ipsum magnam odio, natus, quia laborum distinctio necessitatibus velit similique?</p>
+                <h3>Computer Vision</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error rem fuga eos vel eum in ipsum magnam
+                    odio, natus, quia laborum distinctio necessitatibus velit similique?</p>
             </div>
             <div class="bio">
-                <img src="assets/AlexCharters_BioPic.jpg" alt="">
+                <img src="assets/AlexCharters_BioPic.jpg" alt="Alex">
                 <h4>Alexander Charters</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nisi temporibus inventore accusamus asperiores, veritatis, aut itaque cumque laudantium odit rerum voluptatum illum vel deserunt!</p>
+                <h3>Graphics</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nisi temporibus inventore accusamus
+                    asperiores, veritatis, aut itaque cumque laudantium odit rerum voluptatum illum vel deserunt!</p>
             </div>
 
         </div>
