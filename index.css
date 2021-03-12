@@ -116,9 +116,9 @@ td {
     margin-right: auto;
 }
 
-.money table{
-margin-left: auto;
-margin-right: auto;
+.money table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table_header {
@@ -144,6 +144,25 @@ margin-right: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.section .diagram {
+    width: 25%;
+    height: auto;
+}
+
+.money p {
+    text-align: center;
+}
+
+.challenges h3, .methods h3, .collab {
+    text-align: center;
+}
+
+.challenges ul, .methods ul {
+    margin-left: auto;
+    display: table;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 1000px) {}
