@@ -116,7 +116,7 @@ td {
     margin-right: auto;
 }
 
-.money table {
+.money table, .prototype table {
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,7 +159,7 @@ td {
     text-align: center;
 }
 
-.challenges ul, .methods ul {
+.challenges ul, .methods ul, .prototype ul {
     margin-left: auto;
     display: table;
     margin-right: auto;
