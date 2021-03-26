@@ -105,6 +105,16 @@ td {
     width: 100%;
 }
 
+.prototype img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prototype {
+    text-align: center;
+}
+
 .abstract {
     text-align: center;
 }
